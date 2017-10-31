@@ -210,7 +210,7 @@
             <then>
                 <get src="https://svwh.dl.sourceforge.net/project/xs3p/xs3p-${xs3p.version}.zip"
                      dest="${dependency.base.dir}/downloads/xs3p-${xs3p.version}.zip"
-                     usetimestamp="true"/>
+                     usetimestamp="true" ignoreerrors="true"/>
                 <mkdir dir="${xs3p.home}" />
                 <unzip
                         src="${dependency.base.dir}/downloads/xs3p-${xs3p.version}.zip"

@@ -208,7 +208,7 @@
                 </not>
             </and>
             <then>
-                <get src="http://downloads.sourceforge.net/project/xs3p/xs3p-${xs3p.version}.zip"
+                <get src="https://cytranet.dl.sourceforge.net/project/xs3p/xs3p-${xs3p.version}.zip"
                      dest="${dependency.base.dir}/downloads/xs3p-${xs3p.version}.zip"
                      usetimestamp="true"/>
                 <mkdir dir="${xs3p.home}" />

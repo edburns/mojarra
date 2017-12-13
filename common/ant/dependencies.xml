@@ -55,7 +55,7 @@
     <property name="dependency.base.dir" value="${jsf.build.home}/dependencies"/>
     <property name="dependency.jar.dir" value="${dependency.base.dir}/jars"/>
     <property name="junit.version" value="3.8.1"/>
-    <property name="htmlunit.version" value="2.4"/>
+    <property name="htmlunit.version" value="2.15"/>
     <property name="xs3p.version" value="1.1.5"/>
     <property name="cactus.version" value="13-1.7.2"/>
     <!-- Note that if changing the Apache Commons versions
@@ -188,7 +188,7 @@
                 </not>
             </and>
             <then>
-                <get src="http://pilotfiber.dl.sourceforge.net/project/htmlunit/htmlunit/${htmlunit.version}/htmlunit-${htmlunit.version}.zip"
+                <get src="http://slc14xgm.us.oracle.com:7070/hudson/userContent/htmlunit-${htmlunit.version}-bin.zip"
                      dest="${dependency.base.dir}/downloads/htmlunit-${htmlunit.version}.zip"
                      usetimestamp="true"/>
                 <unzip
